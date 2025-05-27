@@ -3,7 +3,7 @@ import { MotionPlugin } from '@vueuse/motion'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import App from './App.vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import router from './router'
 import './index.css'
 
 // Pages
@@ -28,24 +28,6 @@ AOS.init({
   once: true,
   offset: 50,
   throttleDelay: 50
-})
-
-const routes = [
-  { path: '/', component: Home },
-  { path: '/admin', component: Admin },
-  { path: '/stores', component: Stores },
-  { path: '/restaurants', component: Restaurants },
-  { path: '/cinema', component: Cinema },
-  { path: '/events', component: Events },
-  { path: '/promotions', component: Promotions },
-  { path: '/location', component: Location },
-  { path: '/contact', component: Contact },
-  { path: '/about', component: About },
-]
-
-const router = createRouter({
-  history: createWebHistory(),
-  routes,
 })
 
 const app = createApp(App)

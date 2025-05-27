@@ -250,16 +250,6 @@ import 'aos/dist/aos.css'
 import homeData from '../content/home.json'
 
 const { hero, promotions, events, stores, about, features } = homeData
-
-onMounted(() => {
-  AOS.init({
-    duration: 400,
-    easing: 'ease-out',
-    once: true,
-    offset: 50,
-    throttleDelay: 50
-  })
-})
 </script>
 
 <style>

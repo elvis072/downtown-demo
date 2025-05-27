@@ -66,14 +66,4 @@ import { onMounted } from 'vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import stores from '@/content/stores.json'
-
-onMounted(() => {
-  AOS.init({
-    duration: 400,
-    easing: 'ease-out',
-    once: true,
-    offset: 50,
-    throttleDelay: 50
-  })
-})
 </script> 
