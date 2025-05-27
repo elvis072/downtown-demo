@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/downtown-demo/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Downtown Center</title>
     <script type="text/javascript">
@@ -10,19 +10,17 @@
       // MIT License
       // https://github.com/rafgraph/spa-github-pages
       (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
+        if (l.pathname === '/downtown-demo' || l.pathname === '/downtown-demo/') {
+          return;
+        }
+        if (!l.pathname.startsWith('/downtown-demo/')) {
+          window.location.replace('/downtown-demo/');
         }
       }(window.location))
     </script>
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

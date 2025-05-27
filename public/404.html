@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Downtown Center</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      var segmentCount = 1;
+      var l = window.location;
+      
+      // Ensure we are in the correct base path
+      if (!l.pathname.startsWith('/downtown-demo/')) {
+        l.replace('/downtown-demo/');
+      } else {
+        l.replace(
+          l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+          '/downtown-demo/' +
+          l.pathname.slice('/downtown-demo/'.length) +
+          l.search +
+          l.hash
+        );
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html> 
