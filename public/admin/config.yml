@@ -1,0 +1,265 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Content"
+    files:
+      - name: "home"
+        label: "Home"
+        file: "src/content/home.json"
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Announcement", name: "announcement", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Image Alt", name: "imageAlt", widget: "string"}
+              - label: "Primary Action"
+                name: "primaryAction"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "Link", name: "href", widget: "string"}
+              - label: "Secondary Action"
+                name: "secondaryAction"
+                widget: "object"
+                fields:
+                  - {label: "Text", name: "text", widget: "string"}
+                  - {label: "Link", name: "href", widget: "string"}
+          
+          - label: "Promotions"
+            name: "promotions"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "number"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Link", name: "href", widget: "string"}
+              - {label: "Date", name: "date", widget: "string"}
+              - {label: "DateTime", name: "datetime", widget: "datetime"}
+              - {label: "Store", name: "store", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "number"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Link", name: "href", widget: "string"}
+              - {label: "Date", name: "date", widget: "string"}
+              - {label: "DateTime", name: "datetime", widget: "datetime"}
+              - {label: "Category", name: "category", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Description", name: "description", widget: "text"}
+
+      - name: "stores"
+        label: "Tiendas"
+        file: "src/content/stores.json"
+        fields:
+          - label: "Tiendas"
+            name: "stores"
+            widget: "object"
+            fields:
+              - label: "Moda"
+                name: "fashion"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Tiendas"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "fashion"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/stores"}
+              
+              - label: "Joyería"
+                name: "jewelry"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Tiendas"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "jewelry"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/stores"}
+
+              - label: "Tecnología"
+                name: "technology"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Tiendas"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "technology"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/stores"}
+
+              - label: "Servicios"
+                name: "services"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Tiendas"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "services"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/stores"}
+
+              - label: "Bancos"
+                name: "banks"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Tiendas"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "banks"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/stores"}
+
+              - label: "Entretenimiento"
+                name: "entertainment"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Tiendas"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "entertainment"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/stores"} 
+
+
+      - name: "restaurants"
+        label: "Restaurantes"
+        file: "src/content/restaurants.json"
+        fields:
+          - label: "Restaurantes"
+            name: "restaurants"
+            widget: "object"
+            fields:
+              - label: "Cocina Internacional"
+                name: "international"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Restaurantes"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "international"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/restaurants"}
+                      - {label: "Tipo de Cocina", name: "cuisine", widget: "string"}
+                      - {label: "Rango de Precios", name: "priceRange", widget: "select", options: ["$", "$$", "$$-$$$", "$$$"]}
+
+              - label: "Sabores Locales"
+                name: "local"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Restaurantes"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "local"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/restaurants"}
+                      - {label: "Tipo de Cocina", name: "cuisine", widget: "string"}
+                      - {label: "Rango de Precios", name: "priceRange", widget: "select", options: ["$", "$$", "$$-$$$", "$$$"]}
+
+              - label: "Cafés y Postres"
+                name: "cafes"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Restaurantes"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "cafes"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/restaurants"}
+                      - {label: "Tipo de Cocina", name: "cuisine", widget: "string"}
+                      - {label: "Rango de Precios", name: "priceRange", widget: "select", options: ["$", "$$", "$$-$$$", "$$$"]}
+
+              - label: "Comida Rápida"
+                name: "fastFood"
+                widget: "object"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Descripción", name: "description", widget: "string"}
+                  - label: "Restaurantes"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Nombre", name: "name", widget: "string"}
+                      - {label: "Descripción", name: "description", widget: "text"}
+                      - {label: "Imagen", name: "image", widget: "image"}
+                      - {label: "Categoría", name: "category", widget: "hidden", default: "fastFood"}
+                      - {label: "Piso", name: "floor", widget: "string"}
+                      - {label: "Enlace", name: "href", widget: "string", default: "/restaurants"}
+                      - {label: "Tipo de Cocina", name: "cuisine", widget: "string"}
+                      - {label: "Rango de Precios", name: "priceRange", widget: "select", options: ["$", "$$", "$$-$$$", "$$$"]}

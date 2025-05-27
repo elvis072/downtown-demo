@@ -1,0 +1,168 @@
+{
+  "stores": {
+    "fashion": {
+      "title": "Moda y Accesorios",
+      "description": "Las mejores marcas nacionales e internacionales.",
+      "items": [
+        {
+          "name": "Billabong",
+          "description": "Marca líder en ropa y accesorios de surf y estilo de vida desde 1973.",
+          "image": "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?q=80&w=1600",
+          "category": "fashion",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        },
+        {
+          "name": "Zavekia",
+          "description": "Tienda de ropa para mujer tan versátil como tú.",
+          "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=1600",
+          "category": "fashion",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        },
+        {
+          "name": "Ego Shoes",
+          "description": "Las últimas tendencias en calzado al mejor precio, calidad y servicio.",
+          "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1600",
+          "category": "fashion",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        }
+      ]
+    },
+    "jewelry": {
+      "title": "Joyería y Accesorios",
+      "description": "Piezas exclusivas y de alta calidad.",
+      "items": [
+        {
+          "name": "Pandora",
+          "description": "Primera tienda del concepto Evolution en el país, con joyería de alta calidad hecha a mano.",
+          "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600",
+          "category": "jewelry",
+          "floor": "Nivel 2",
+          "href": "/stores"
+        },
+        {
+          "name": "Swarovski",
+          "description": "Boutique Crystal Forrest con joyas, accesorios y decoración en cristal tallado.",
+          "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1600",
+          "category": "jewelry",
+          "floor": "Nivel 2",
+          "href": "/stores"
+        },
+        {
+          "name": "Steelove",
+          "description": "Empresa líder en joyería con productos exclusivos y de lujo asequible.",
+          "image": "https://images.unsplash.com/photo-1517857399767-a9dc28f5a734?q=80&w=1600",
+          "category": "jewelry",
+          "floor": "Nivel 2",
+          "href": "/stores"
+        }
+      ]
+    },
+    "technology": {
+      "title": "Tecnología y Servicios",
+      "description": "Todo lo que necesitas en un solo lugar.",
+      "items": [
+        {
+          "name": "Tecstore",
+          "description": "Los mejores accesorios tecnológicos y gadgets.",
+          "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1600",
+          "category": "technology",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        },
+        {
+          "name": "Altice",
+          "description": "Compañía líder en telecomunicaciones con servicio al cliente excepcional.",
+          "image": "https://i0.wp.com/www.hd.com.do/wp-content/uploads/2017/11/altice.jpg?resize=1200%2C742",
+          "category": "technology",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        },
+        {
+          "name": "Claro",
+          "description": "Soluciones completas de comunicación y entretenimiento personal.",
+          "image": "https://megacentro.com.do/content/uploads/2018/08/claro-1.jpg",
+          "category": "technology",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        }
+      ]
+    },
+    "services": {
+      "title": "Servicios Especializados",
+      "description": "Servicios profesionales para todas tus necesidades.",
+      "items": [
+        {
+          "name": "Farmacia Carol",
+          "description": "La farmacia más admirada del país, con productos confiables y servicio excepcional.",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqIgwK-kevIJN814SdIO68g6yxXAIkT1Xf6Q&s",
+          "category": "services",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        },
+        {
+          "name": "All Vision",
+          "description": "Óptica líder con productos y servicios de alta calidad y trato humano.",
+          "image": "https://images.unsplash.com/photo-1577744486770-020ab432da65?q=80&w=1600",
+          "category": "services",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        },
+        {
+          "name": "Clean & Go",
+          "description": "Servicios profesionales de lavandería y alteraciones con soluciones efectivas.",
+          "image": "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?q=80&w=1600",
+          "category": "services",
+          "floor": "Nivel 1",
+          "href": "/stores"
+        }
+      ]
+    },
+    "banks": {
+      "title": "Servicios Bancarios",
+      "description": "Las principales instituciones bancarias a tu servicio.",
+      "items": [
+        {
+          "name": "Banco Popular",
+          "description": "Centro Digital Popular con servicios bancarios modernos y eficientes.",
+          "image": "https://www.megacentro.com.do/content/uploads/2018/08/popular.jpg",
+          "category": "banks",
+          "floor": "Nivel 2",
+          "href": "/stores"
+        },
+        {
+          "name": "BHD León",
+          "description": "Servicios financieros integrales para hacer tu mundo mejor.",
+          "image": "https://static.bhd.com.do/Logos_BHD_en_JPG_05_82325d3853.jpg",
+          "category": "banks",
+          "floor": "Nivel 2",
+          "href": "/stores"
+        },
+        {
+          "name": "Banco Caribe",
+          "description": "Tu aliado financiero con soluciones innovadoras que transforman vidas.",
+          "image": "https://media.licdn.com/dms/image/v2/C4D0BAQE5UQlFznLKVw/company-logo_200_200/company-logo_200_200/0/1630519240873/bancocaribe_logo?e=2147483647&v=beta&t=YOkxfFP-dVjD5PYAaqA5WeUFRv-ZeddMVhpuXmX0n2g",
+          "category": "banks",
+          "floor": "Nivel 2",
+          "href": "/stores"
+        }
+      ]
+    },
+    "entertainment": {
+      "title": "Entretenimiento",
+      "description": "La mejor experiencia en entretenimiento.",
+      "items": [
+        {
+          "name": "Caribbean Cinemas",
+          "description": "El cine más moderno de Santo Domingo con 16 salas digitales HD.",
+          "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600",
+          "category": "entertainment",
+          "floor": "Nivel 3",
+          "href": "/cinema"
+        }
+      ]
+    }
+  }
+}

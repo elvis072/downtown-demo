@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "announcement": "El centro comercial más moderno de Santo Domingo",
+    "title": "Downtown Center",
+    "description": "Un moderno centro comercial de tres niveles desarrollado por Caribbean Cinemas, enfocado en entretenimiento, gastronomía, tiendas y servicios.",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/66/85/41/mall.jpg?w=1200&h=-1&s=1",
+    "imageAlt": "Downtown Center mall exterior",
+    "primaryAction": {
+      "text": "Ver Tiendas",
+      "href": "/stores"
+    },
+    "secondaryAction": {
+      "text": "Conoce más",
+      "href": "/about"
+    }
+  },
+  "features": [
+    {
+      "name": "Restaurantes",
+      "description": "Descubre una amplia variedad de opciones gastronómicas.",
+      "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200"
+    },
+    {
+      "name": "Supermercado",
+      "description": "Todo lo que necesitas en un solo lugar.",
+      "image": "https://images.unsplash.com/photo-1578916171728-46686eac8d58?q=80&w=1200"
+    },
+    {
+      "name": "Cine",
+      "description": "Disfruta de los últimos estrenos en nuestras modernas salas.",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1200"
+    },
+    {
+      "name": "Gimnasio",
+      "description": "Mantente en forma en nuestras instalaciones de primer nivel.",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200"
+    },
+    {
+      "name": "Compras",
+      "description": "Las mejores tiendas y marcas a tu alcance.",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200"
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "title": "Caribbean Cinemas 4DX",
+      "description": "Disfruta de la mejor experiencia cinematográfica con efectos especiales sincronizados.",
+      "href": "/cinema",
+      "date": "Disponible ahora",
+      "datetime": "2024-03-20",
+      "store": "Caribbean Cinemas",
+      "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1200"
+    },
+    {
+      "id": 2,
+      "title": "Nuevas Tiendas",
+      "description": "Descubre las nuevas tiendas que han llegado a Downtown Center.",
+      "href": "/stores",
+      "date": "Marzo 2024",
+      "datetime": "2024-03-01",
+      "store": "Varios",
+      "image": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=1200"
+    },
+    {
+      "id": 3,
+      "title": "Food Court",
+      "description": "Explora nuestra variada oferta gastronómica en el food court.",
+      "href": "/restaurants",
+      "date": "Todo el año",
+      "datetime": "2024-01-01",
+      "store": "Food Court",
+      "image": "https://images.unsplash.com/photo-1559304822-9eb2813c9844?q=80&w=1200"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Concierto en Vivo",
+      "description": "Disfruta de música en vivo todos los viernes en nuestra plaza central.",
+      "href": "/events",
+      "date": "Todos los viernes",
+      "datetime": "2024-03-22",
+      "category": "Música",
+      "image": "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?q=80&w=1200"
+    },
+    {
+      "id": 2,
+      "title": "Exposición de Arte",
+      "description": "Exhibición de artistas locales en nuestra galería temporal.",
+      "href": "/events",
+      "date": "Marzo 15-30",
+      "datetime": "2024-03-15",
+      "category": "Arte",
+      "image": "https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?q=80&w=1200"
+    }
+  ],
+  "about": {
+    "description": "Downtown Center es el centro comercial más moderno de Santo Domingo, ofreciendo una experiencia única en compras, entretenimiento y gastronomía. Con más de 100 tiendas, 16 salas de cine y una amplia variedad de restaurantes, somos el destino preferido para toda la familia."
+  }
+} 

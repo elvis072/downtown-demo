@@ -1,0 +1,148 @@
+{
+  "restaurants": {
+    "international": {
+      "title": "Cocina Internacional",
+      "description": "Sabores del mundo en un solo lugar.",
+      "items": [
+        {
+          "name": "Hard Rock Cafe",
+          "description": "Restaurante temático con música rock y comida americana.",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1600",
+          "category": "international",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Americana",
+          "priceRange": "$$-$$$"
+        },
+        {
+          "name": "P.F. Chang's",
+          "description": "Auténtica cocina asiática con un toque moderno.",
+          "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?q=80&w=1600",
+          "category": "international",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Asiática",
+          "priceRange": "$$-$$$"
+        },
+        {
+          "name": "Cantina Mariachi",
+          "description": "Lo mejor de la gastronomía mexicana en un ambiente festivo.",
+          "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=1600",
+          "category": "international",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Mexicana",
+          "priceRange": "$$"
+        }
+      ]
+    },
+    "local": {
+      "title": "Sabores Locales",
+      "description": "Lo mejor de la gastronomía dominicana.",
+      "items": [
+        {
+          "name": "Adrian Tropical",
+          "description": "Auténtica comida dominicana en un ambiente casual y acogedor.",
+          "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1600",
+          "category": "local",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Dominicana",
+          "priceRange": "$$"
+        },
+        {
+          "name": "El Conuco",
+          "description": "Sabores tradicionales dominicanos con un toque gourmet.",
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600",
+          "category": "local",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Dominicana",
+          "priceRange": "$$"
+        },
+        {
+          "name": "Barra Payá",
+          "description": "Fusión de cocina criolla y mariscos frescos.",
+          "image": "https://images.unsplash.com/photo-1576867757603-05b134ebc379?q=80&w=1600",
+          "category": "local",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Dominicana/Mariscos",
+          "priceRange": "$$-$$$"
+        }
+      ]
+    },
+    "cafes": {
+      "title": "Cafés y Postres",
+      "description": "Dulces momentos y bebidas especiales.",
+      "items": [
+        {
+          "name": "Starbucks",
+          "description": "Café de especialidad y bebidas premium en un ambiente acogedor.",
+          "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1600",
+          "category": "cafes",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Café",
+          "priceRange": "$$"
+        },
+        {
+          "name": "Helados Bon",
+          "description": "Helados artesanales y postres dominicanos.",
+          "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?q=80&w=1600",
+          "category": "cafes",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Postres",
+          "priceRange": "$"
+        },
+        {
+          "name": "Cinnabon",
+          "description": "Rolls de canela recién horneados y bebidas especiales.",
+          "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=1600",
+          "category": "cafes",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Postres",
+          "priceRange": "$"
+        }
+      ]
+    },
+    "fastFood": {
+      "title": "Comida Rápida",
+      "description": "Opciones rápidas y deliciosas.",
+      "items": [
+        {
+          "name": "McDonald's",
+          "description": "Clásicas hamburguesas y menús familiares.",
+          "image": "https://impulsapopular.com/wp-content/uploads/2020/03/4695-Las-seis-fases-utilizadas-por-McDonald%C2%B4s-para-revitalizar-la-marca-1.jpg",
+          "category": "fastFood",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Americana",
+          "priceRange": "$"
+        },
+        {
+          "name": "Pizza Hut",
+          "description": "Pizzas, pastas y entrantes para toda la familia.",
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1600",
+          "category": "fastFood",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Italiana",
+          "priceRange": "$"
+        },
+        {
+          "name": "KFC",
+          "description": "Pollo frito y acompañantes con la receta secreta original.",
+          "image": "https://images.radio.com/aiu-media/GettyImages1219747376-5e36572d-b61a-4a64-b5af-607a63af29e8.jpg?width=800",
+          "category": "fastFood",
+          "floor": "Nivel 1",
+          "href": "/restaurants",
+          "cuisine": "Americana",
+          "priceRange": "$"
+        }
+      ]
+    }
+  }
+} 
