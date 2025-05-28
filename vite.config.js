@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/downtown-demo/',
+  base: process.env.NODE_ENV === 'production' ? '/downtown-demo/' : '/',
   server: {
     port: 3000
   },

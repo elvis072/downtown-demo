@@ -6,18 +6,6 @@ import App from './App.vue'
 import router from './router'
 import './index.css'
 
-// Pages
-import Home from './pages/Home.vue'
-import Admin from './pages/Admin.vue'
-import Stores from './pages/Stores.vue'
-import Restaurants from './pages/Restaurants.vue'
-import Cinema from './pages/Cinema.vue'
-import Events from './pages/Events.vue'
-import Promotions from './pages/Promotions.vue'
-import Location from './pages/Location.vue'
-import Contact from './pages/Contact.vue'
-import About from './pages/About.vue'
-
 // Styles
 import './assets/styles/global.css'
 
